@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BEC75B7B2D41427C009F8AF5 /* TAMS_InventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */; };
+		BEC75B7D2D41427C009F8AF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7C2D41427C009F8AF5 /* ContentView.swift */; };
+		BEC75B7F2D41427C009F8AF5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7E2D41427C009F8AF5 /* Item.swift */; };
+		BEC75B812D41427D009F8AF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC75B802D41427D009F8AF5 /* Assets.xcassets */; };
+		BEC75B852D41427D009F8AF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEC75B842D41427D009F8AF5 /* Preview Assets.xcassets */; };
+		BEC75B8F2D41427D009F8AF5 /* TAMS_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B8E2D41427D009F8AF5 /* TAMS_InventoryTests.swift */; };
+		BEC75B992D41427D009F8AF5 /* TAMS_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B982D41427D009F8AF5 /* TAMS_InventoryUITests.swift */; };
+		BEC75B9B2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B9A2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEC75B8B2D41427D009F8AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC75B6F2D41427C009F8AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC75B762D41427C009F8AF5;
+			remoteInfo = "TAMS Inventory";
+		};
+		BEC75B952D41427D009F8AF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEC75B6F2D41427C009F8AF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEC75B762D41427C009F8AF5;
+			remoteInfo = "TAMS Inventory";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BEC75B772D41427C009F8AF5 /* TAMS Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TAMS Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryApp.swift; sourceTree = "<group>"; };
+		BEC75B7C2D41427C009F8AF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BEC75B7E2D41427C009F8AF5 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BEC75B802D41427D009F8AF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEC75B822D41427D009F8AF5 /* TAMS_Inventory.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TAMS_Inventory.entitlements; sourceTree = "<group>"; };
+		BEC75B842D41427D009F8AF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BEC75B8A2D41427D009F8AF5 /* TAMS InventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAMS InventoryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC75B8E2D41427D009F8AF5 /* TAMS_InventoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryTests.swift; sourceTree = "<group>"; };
+		BEC75B942D41427D009F8AF5 /* TAMS InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAMS InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEC75B982D41427D009F8AF5 /* TAMS_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryUITests.swift; sourceTree = "<group>"; };
+		BEC75B9A2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEC75B742D41427C009F8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B872D41427D009F8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B912D41427D009F8AF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEC75B6E2D41427C009F8AF5 = {
+			isa = PBXGroup;
+			children = (
+				BEC75B792D41427C009F8AF5 /* TAMS Inventory */,
+				BEC75B8D2D41427D009F8AF5 /* TAMS InventoryTests */,
+				BEC75B972D41427D009F8AF5 /* TAMS InventoryUITests */,
+				BEC75B782D41427C009F8AF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEC75B782D41427C009F8AF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEC75B772D41427C009F8AF5 /* TAMS Inventory.app */,
+				BEC75B8A2D41427D009F8AF5 /* TAMS InventoryTests.xctest */,
+				BEC75B942D41427D009F8AF5 /* TAMS InventoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEC75B792D41427C009F8AF5 /* TAMS Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */,
+				BEC75B7C2D41427C009F8AF5 /* ContentView.swift */,
+				BEC75B7E2D41427C009F8AF5 /* Item.swift */,
+				BEC75B802D41427D009F8AF5 /* Assets.xcassets */,
+				BEC75B822D41427D009F8AF5 /* TAMS_Inventory.entitlements */,
+				BEC75B832D41427D009F8AF5 /* Preview Content */,
+			);
+			path = "TAMS Inventory";
+			sourceTree = "<group>";
+		};
+		BEC75B832D41427D009F8AF5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BEC75B842D41427D009F8AF5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BEC75B8D2D41427D009F8AF5 /* TAMS InventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC75B8E2D41427D009F8AF5 /* TAMS_InventoryTests.swift */,
+			);
+			path = "TAMS InventoryTests";
+			sourceTree = "<group>";
+		};
+		BEC75B972D41427D009F8AF5 /* TAMS InventoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BEC75B982D41427D009F8AF5 /* TAMS_InventoryUITests.swift */,
+				BEC75B9A2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift */,
+			);
+			path = "TAMS InventoryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEC75B762D41427C009F8AF5 /* TAMS Inventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC75B9E2D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS Inventory" */;
+			buildPhases = (
+				BEC75B732D41427C009F8AF5 /* Sources */,
+				BEC75B742D41427C009F8AF5 /* Frameworks */,
+				BEC75B752D41427C009F8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TAMS Inventory";
+			productName = "TAMS Inventory";
+			productReference = BEC75B772D41427C009F8AF5 /* TAMS Inventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEC75B892D41427D009F8AF5 /* TAMS InventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC75BA12D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS InventoryTests" */;
+			buildPhases = (
+				BEC75B862D41427D009F8AF5 /* Sources */,
+				BEC75B872D41427D009F8AF5 /* Frameworks */,
+				BEC75B882D41427D009F8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC75B8C2D41427D009F8AF5 /* PBXTargetDependency */,
+			);
+			name = "TAMS InventoryTests";
+			productName = "TAMS InventoryTests";
+			productReference = BEC75B8A2D41427D009F8AF5 /* TAMS InventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BEC75B932D41427D009F8AF5 /* TAMS InventoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEC75BA42D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS InventoryUITests" */;
+			buildPhases = (
+				BEC75B902D41427D009F8AF5 /* Sources */,
+				BEC75B912D41427D009F8AF5 /* Frameworks */,
+				BEC75B922D41427D009F8AF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEC75B962D41427D009F8AF5 /* PBXTargetDependency */,
+			);
+			name = "TAMS InventoryUITests";
+			productName = "TAMS InventoryUITests";
+			productReference = BEC75B942D41427D009F8AF5 /* TAMS InventoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEC75B6F2D41427C009F8AF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BEC75B762D41427C009F8AF5 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					BEC75B892D41427D009F8AF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BEC75B762D41427C009F8AF5;
+					};
+					BEC75B932D41427D009F8AF5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = BEC75B762D41427C009F8AF5;
+					};
+				};
+			};
+			buildConfigurationList = BEC75B722D41427C009F8AF5 /* Build configuration list for PBXProject "TAMS Inventory" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEC75B6E2D41427C009F8AF5;
+			productRefGroup = BEC75B782D41427C009F8AF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEC75B762D41427C009F8AF5 /* TAMS Inventory */,
+				BEC75B892D41427D009F8AF5 /* TAMS InventoryTests */,
+				BEC75B932D41427D009F8AF5 /* TAMS InventoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEC75B752D41427C009F8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC75B852D41427D009F8AF5 /* Preview Assets.xcassets in Resources */,
+				BEC75B812D41427D009F8AF5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B882D41427D009F8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B922D41427D009F8AF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEC75B732D41427C009F8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC75B7D2D41427C009F8AF5 /* ContentView.swift in Sources */,
+				BEC75B7F2D41427C009F8AF5 /* Item.swift in Sources */,
+				BEC75B7B2D41427C009F8AF5 /* TAMS_InventoryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B862D41427D009F8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC75B8F2D41427D009F8AF5 /* TAMS_InventoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC75B902D41427D009F8AF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEC75B9B2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift in Sources */,
+				BEC75B992D41427D009F8AF5 /* TAMS_InventoryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEC75B8C2D41427D009F8AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC75B762D41427C009F8AF5 /* TAMS Inventory */;
+			targetProxy = BEC75B8B2D41427D009F8AF5 /* PBXContainerItemProxy */;
+		};
+		BEC75B962D41427D009F8AF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEC75B762D41427C009F8AF5 /* TAMS Inventory */;
+			targetProxy = BEC75B952D41427D009F8AF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BEC75B9C2D41427D009F8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BEC75B9D2D41427D009F8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BEC75B9F2D41427D009F8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TAMS Inventory/TAMS_Inventory.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TAMS Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BEC75BA02D41427D009F8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TAMS Inventory/TAMS_Inventory.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TAMS Inventory/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-Inventory";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BEC75BA22D41427D009F8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAMS Inventory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TAMS Inventory";
+			};
+			name = Debug;
+		};
+		BEC75BA32D41427D009F8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-InventoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TAMS Inventory.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TAMS Inventory";
+			};
+			name = Release;
+		};
+		BEC75BA52D41427D009F8AF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TAMS Inventory";
+			};
+			name = Debug;
+		};
+		BEC75BA62D41427D009F8AF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTZ5ANBT6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.PSIwebware.TAMS-InventoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TAMS Inventory";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEC75B722D41427C009F8AF5 /* Build configuration list for PBXProject "TAMS Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC75B9C2D41427D009F8AF5 /* Debug */,
+				BEC75B9D2D41427D009F8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC75B9E2D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS Inventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC75B9F2D41427D009F8AF5 /* Debug */,
+				BEC75BA02D41427D009F8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC75BA12D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS InventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC75BA22D41427D009F8AF5 /* Debug */,
+				BEC75BA32D41427D009F8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEC75BA42D41427D009F8AF5 /* Build configuration list for PBXNativeTarget "TAMS InventoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEC75BA52D41427D009F8AF5 /* Debug */,
+				BEC75BA62D41427D009F8AF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEC75B6F2D41427C009F8AF5 /* Project object */;
+}
