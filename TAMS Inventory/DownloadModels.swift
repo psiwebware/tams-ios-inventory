@@ -8,7 +8,7 @@
 import SwiftData
 
 @Model
-class PartLocationModel: Codable {
+class PartLocationModel {
   @Attribute(.unique) var id: Int = 0
   var facilityID: String
   var building: String
