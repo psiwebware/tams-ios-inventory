@@ -25,8 +25,9 @@ struct TAMS_InventoryApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView() //ContentView()
         }
         .modelContainer(sharedModelContainer)
+        //.modelContainer(for: DataItem.self)
     }
 }

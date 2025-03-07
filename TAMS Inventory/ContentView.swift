@@ -24,6 +24,7 @@ struct ContentView: View {
                 }
                 .onDelete(perform: deleteItems)
             }
+            .padding(999)
 #if os(macOS)
             .navigationSplitViewColumnWidth(min: 180, ideal: 200)
 #endif
