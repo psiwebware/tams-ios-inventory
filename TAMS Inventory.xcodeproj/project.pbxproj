@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2D9AA02D7232E2009454A1 /* DownloadModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D9A9F2D7232E2009454A1 /* DownloadModels.swift */; };
+		BE2D9AA22D723468009454A1 /* DownloadDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE2D9AA12D723468009454A1 /* DownloadDTOs.swift */; };
+		BEA74F502D77603B00FFD742 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA74F4F2D77603B00FFD742 /* MainView.swift */; };
+		BEC442442D64EA0F00109556 /* ActivateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC442432D64EA0F00109556 /* ActivateViewModel.swift */; };
+		BEC442462D651CCE00109556 /* SupplyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC442452D651CCE00109556 /* SupplyModels.swift */; };
+		BEC442482D65264800109556 /* TypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC442472D65264800109556 /* TypeModel.swift */; };
 		BEC75B7B2D41427C009F8AF5 /* TAMS_InventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */; };
 		BEC75B7D2D41427C009F8AF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7C2D41427C009F8AF5 /* ContentView.swift */; };
 		BEC75B7F2D41427C009F8AF5 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B7E2D41427C009F8AF5 /* Item.swift */; };
@@ -15,6 +21,11 @@
 		BEC75B8F2D41427D009F8AF5 /* TAMS_InventoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B8E2D41427D009F8AF5 /* TAMS_InventoryTests.swift */; };
 		BEC75B992D41427D009F8AF5 /* TAMS_InventoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B982D41427D009F8AF5 /* TAMS_InventoryUITests.swift */; };
 		BEC75B9B2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75B9A2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift */; };
+		BEC75BA82D4142EA009F8AF5 /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75BA72D4142EA009F8AF5 /* DataItem.swift */; };
+		BEC75BAA2D4156B9009F8AF5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75BA92D4156B9009F8AF5 /* HomeView.swift */; };
+		BEC75BAC2D415B46009F8AF5 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75BAB2D415B46009F8AF5 /* AppConfig.swift */; };
+		BEC75BAE2D416AC1009F8AF5 /* ActivateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC75BAD2D416AC1009F8AF5 /* ActivateView.swift */; };
+		BED28D4C2D5FC6B1002E61EE /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED28D4B2D5FC6B1002E61EE /* Animations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE2D9A9F2D7232E2009454A1 /* DownloadModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadModels.swift; sourceTree = "<group>"; };
+		BE2D9AA12D723468009454A1 /* DownloadDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadDTOs.swift; sourceTree = "<group>"; };
+		BEA74F4F2D77603B00FFD742 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BEC442432D64EA0F00109556 /* ActivateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateViewModel.swift; sourceTree = "<group>"; };
+		BEC442452D651CCE00109556 /* SupplyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplyModels.swift; sourceTree = "<group>"; };
+		BEC442472D65264800109556 /* TypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeModel.swift; sourceTree = "<group>"; };
 		BEC75B772D41427C009F8AF5 /* TAMS Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TAMS Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryApp.swift; sourceTree = "<group>"; };
 		BEC75B7C2D41427C009F8AF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +64,11 @@
 		BEC75B942D41427D009F8AF5 /* TAMS InventoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TAMS InventoryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC75B982D41427D009F8AF5 /* TAMS_InventoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryUITests.swift; sourceTree = "<group>"; };
 		BEC75B9A2D41427D009F8AF5 /* TAMS_InventoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAMS_InventoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BEC75BA72D4142EA009F8AF5 /* DataItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
+		BEC75BA92D4156B9009F8AF5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BEC75BAB2D415B46009F8AF5 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		BEC75BAD2D416AC1009F8AF5 /* ActivateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateView.swift; sourceTree = "<group>"; };
+		BED28D4B2D5FC6B1002E61EE /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +121,21 @@
 			children = (
 				BEC75B7A2D41427C009F8AF5 /* TAMS_InventoryApp.swift */,
 				BEC75B7C2D41427C009F8AF5 /* ContentView.swift */,
+				BEC75BAB2D415B46009F8AF5 /* AppConfig.swift */,
+				BEC75BA92D4156B9009F8AF5 /* HomeView.swift */,
+				BEC75BA72D4142EA009F8AF5 /* DataItem.swift */,
 				BEC75B7E2D41427C009F8AF5 /* Item.swift */,
 				BEC75B802D41427D009F8AF5 /* Assets.xcassets */,
 				BEC75B822D41427D009F8AF5 /* TAMS_Inventory.entitlements */,
 				BEC75B832D41427D009F8AF5 /* Preview Content */,
+				BEC75BAD2D416AC1009F8AF5 /* ActivateView.swift */,
+				BED28D4B2D5FC6B1002E61EE /* Animations.swift */,
+				BEC442432D64EA0F00109556 /* ActivateViewModel.swift */,
+				BEC442452D651CCE00109556 /* SupplyModels.swift */,
+				BEC442472D65264800109556 /* TypeModel.swift */,
+				BE2D9A9F2D7232E2009454A1 /* DownloadModels.swift */,
+				BE2D9AA12D723468009454A1 /* DownloadDTOs.swift */,
+				BEA74F4F2D77603B00FFD742 /* MainView.swift */,
 			);
 			path = "TAMS Inventory";
 			sourceTree = "<group>";
@@ -262,8 +295,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC442482D65264800109556 /* TypeModel.swift in Sources */,
+				BEA74F502D77603B00FFD742 /* MainView.swift in Sources */,
 				BEC75B7D2D41427C009F8AF5 /* ContentView.swift in Sources */,
 				BEC75B7F2D41427C009F8AF5 /* Item.swift in Sources */,
+				BEC75BA82D4142EA009F8AF5 /* DataItem.swift in Sources */,
+				BEC75BAC2D415B46009F8AF5 /* AppConfig.swift in Sources */,
+				BEC75BAA2D4156B9009F8AF5 /* HomeView.swift in Sources */,
+				BEC75BAE2D416AC1009F8AF5 /* ActivateView.swift in Sources */,
+				BE2D9AA02D7232E2009454A1 /* DownloadModels.swift in Sources */,
+				BEC442462D651CCE00109556 /* SupplyModels.swift in Sources */,
+				BE2D9AA22D723468009454A1 /* DownloadDTOs.swift in Sources */,
+				BED28D4C2D5FC6B1002E61EE /* Animations.swift in Sources */,
+				BEC442442D64EA0F00109556 /* ActivateViewModel.swift in Sources */,
 				BEC75B7B2D41427C009F8AF5 /* TAMS_InventoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
